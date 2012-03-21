@@ -34,7 +34,6 @@ package tools.stringCalculator {
 			Assert.assertEquals(expected, actual);
 		}
 		
-		
 		[Test]
 		public function twoNumbersSepartedByComma():void {
 			var numbers:String = "1,2";
@@ -44,7 +43,6 @@ package tools.stringCalculator {
 			
 			Assert.assertEquals(expected, actual);
 		}
-		
 		
 		[Test]
 		public function unknowAmountOfNumbers():void {
@@ -164,9 +162,6 @@ package tools.stringCalculator {
 			
 			Assert.assertEquals(expected, actual);
 		}
-		
-		// Exception Handling && Ignore
-		//[Ignore("Not Ready to Run")]
 
 	}
 
